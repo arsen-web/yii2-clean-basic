@@ -1,6 +1,6 @@
 <?php
 
-return \yii\helpers\ArrayHelper::merge(require __DIR__ . './../common/components.php', [
+return [
     'urlManager' => [
         'enablePrettyUrl'     => true,
         'enableStrictParsing' => true,
@@ -51,4 +51,4 @@ return \yii\helpers\ArrayHelper::merge(require __DIR__ . './../common/components
     //                ],
     //            ],
     //        ],
-]);
+];
